@@ -1,0 +1,8 @@
+
+
+p<-c(10,20,30,40)
+mp<-c(10,15,15,20,20,20,25,25,25,25,30,30,30,35,35,40)
+
+  
+hx <- hist(mp, breaks=5)
+hist.default(mp, breaks = "Sturges", freq = NULL,   )
